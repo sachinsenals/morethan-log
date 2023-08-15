@@ -33,19 +33,19 @@ const CONFIG = {
     pageId: process.env.NOTION_PAGE_ID,
   },
 
-  // plugin configuration (optional)
-  googleAnalytics: {
-    enable: false,
-    config: {
-      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
-    },
-  },
-  googleSearchConsole: {
-    enable: false,
-    config: {
-      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
-    },
-  },
+  // // plugin configuration (optional)
+  // googleAnalytics: {
+  //   enable: false,
+  //   config: {
+  //     measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
+  //   },
+  // },
+  // googleSearchConsole: {
+  //   enable: false,
+  //   config: {
+  //     siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
+  //   },
+  // },
   utterances: {
     enable: true,
     config: {
