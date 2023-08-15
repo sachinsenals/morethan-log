@@ -39,13 +39,13 @@ const CONFIG = {
   //   config: {
   //     measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
   //   },
-  },
-  googleSearchConsole: {
-    enable: false,
-    config: {
-      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
-    },
-  },
+  // },
+  // googleSearchConsole: {
+  //   enable: false,
+  //   config: {
+  //     siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
+  //   },
+  // },
   utterances: {
     enable: true,
     config: {
